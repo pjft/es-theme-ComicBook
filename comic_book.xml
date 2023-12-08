@@ -69,7 +69,7 @@ Theme Concept based on images posted by: lipebello on Retropie.org.uk/forum
 			<size>0.478 0.7495</size>
 			<alignment>center</alignment>
 			<horizontalMargin>0.00</horizontalMargin>
-			<fontSize>0.0335</fontSize>
+			<fontSize>0.0333</fontSize>
 			<scrollSound>./art/scroll.wav</scrollSound>
 		</textlist>
 		
@@ -145,7 +145,7 @@ Theme Concept based on images posted by: lipebello on Retropie.org.uk/forum
 		</datetime>
 
 		<text name="md_lbl_releasedate">
-			<pos>0.513 0.635</pos>
+			<pos>0.513 0.63</pos>
 			<size>0 0.033</size>
 			<color>000000</color>
 			<fontPath>./art/Shaka_Pow.ttf</fontPath>
@@ -153,54 +153,59 @@ Theme Concept based on images posted by: lipebello on Retropie.org.uk/forum
 		</text>
 		
 		<datetime name="md_releasedate">
-			<pos>0.59 0.635</pos>
+			<pos>0.59 0.63</pos>
 			<size>0 0.033</size>
 		</datetime>
 
 		<text name="md_lbl_genre">
-			<pos>0.513 0.66</pos>
+			<pos>0.513 0.657</pos>
 			<size>0 0.033</size>
 		</text>
 		
 		<text name="md_genre">
-			<pos>0.59 0.668</pos>
+			<pos>0.59 0.667</pos>
 			<size>0.16 0.02</size>
 		</text>
 
 		<text name="md_lbl_developer">
-			<pos>0.513 0.685</pos>
+			<pos>0.513 0.68</pos>
 			<size>0 0</size>
 		</text>
 		
 		<text name="md_developer">
-			<pos>0.59 0.694</pos>
+			<pos>0.59 0.69</pos>
 			<size>0.18 0.02</size>
 		</text>
 
 		<text name="md_lbl_players, md_players">
-			<pos>0.89 0.635</pos>
+			<!--<pos>0.89 0.635</pos>-->
+			<pos>0.81 0.63</pos>
 			<size>0.09 0</size>
 		</text>
 
 		<text name="md_players">
-			<pos>0.96 0.635</pos>
+			<!--<pos>0.96 0.635</pos>-->
+			<pos>0.90 0.63</pos>
 			<size>0.02 0</size>
 		</text>
 		
 		<rating name="md_rating">
-         <pos>0.87 0.66</pos>
+         <!--<pos>0.87 0.66</pos>-->
+         <pos>0.81 0.657</pos>
          <size>0 0.038</size>
          <filledPath>./art/star_filled.png</filledPath>
          <unfilledPath>./art/star_empty.png</unfilledPath>
         </rating>
 		
 		<text name="md_lbl_playcount">
-			<pos>0.88 0.685</pos>
+			<!--<pos>0.88 0.685</pos>-->
+			<pos>0.81 0.68</pos>
 			<size>0.0 0.033</size>
 		</text>
 		
 		<text name="md_playcount">
-			<pos>0.96 0.685</pos>
+			<!--<pos>0.96 0.685</pos>-->
+			<pos>0.90 0.68</pos>
 			<size>0.02 0</size>
 		</text>
 
@@ -214,27 +219,27 @@ Theme Concept based on images posted by: lipebello on Retropie.org.uk/forum
 		</text>
 		
 		<image name="md_hidden">
-			<pos>0.7 0.942</pos>
+			<pos>0.98 0.667</pos>
 			<path>./art/hidden.svg</path>
 			<maxSize>0.032 0.032</maxSize>
 			<origin>0.5 0.5</origin>
-			<color>7d7d7d</color>
+			<color>000000</color>
 		</image>
 		
 		<image name="md_kidgame">
-			<pos>0.75 0.942</pos>
+			<pos>0.93 0.662</pos>
 			<path>./art/kid.svg</path>
 			<maxSize>0.032 0.032</maxSize>
 			<origin>0.5 0.5</origin>
-			<color>7d7d7d</color>
+			<color>000000</color>
 		</image>
 		
 		<image name="md_favorite">
-			<pos>0.8 0.942</pos>
+			<pos>0.95 0.662</pos>
 			<path>./art/favorite.svg</path>
 			<maxSize>0.032 0.032</maxSize>
 			<origin>0.5 0.5</origin>
-			<color>7d7d7d</color>
+			<color>000000</color>
 		</image>
 
 	</view>
